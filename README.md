@@ -19,7 +19,7 @@ A self-hosted Ubuntu Server setup built using a repurposed laptop for NAS storag
 
 | Component | Details |
 |---|---|
-| Device | Dell Inspiron Laptop |
+| Device | Dell Inspiron 15-3567 |
 | CPU | Intel i3 |
 | RAM | 12 GB |
 | Storage | 500 GB |
@@ -91,7 +91,6 @@ The Samba share is mounted on a Windows machine over the local network.
 # Future Improvements
 
 - Docker containers
-- Pi-hole integration
 - VPN setup
 - Automated backups
 - Monitoring dashboard
