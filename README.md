@@ -67,16 +67,18 @@ Router ─── Ubuntu Homelab Server
 ## Setup
 
 ![setup](screenshots/hw-setup.jpg)
+The laptop on the left is being used as a server and the laptop on the right is accessing the server via SSH
 
 ## System Monitoring and SSH login
 
 ![htop](screenshots/htop-ssh.jpg)
+Here we can see the login screen for the SSH login and on the right htop processes that are currently running on the server.
 
 ## Samba NAS Access
 
 <img src="screenshots/samba-share.png" width="700">
 
-The Samba share is mounted on a Windows machine over the local network.
+The Samba share is mounted on a Windows machine over the local network. The hard drive of the server can be accessed remotely via the Windows machine.
 
 ## Details of Server and currently running services
 
@@ -85,8 +87,33 @@ The Samba share is mounted on a Windows machine over the local network.
 ## Active Services
 
 ![active](screenshots/active-services.jpg)
+Shows a list of services that are currently running.
 
 ---
+
+# Initial Server Setup
+
+## Install Ubuntu Server
+
+Installed Ubuntu Server 24.04 LTS using a bootable USB drive.
+
+## Enable SSH
+
+```bash
+sudo apt install openssh-server
+```
+
+## Verify SSH
+
+```bash
+systemctl status ssh
+```
+
+## Connect From Another Device
+
+```bash
+ssh username@computer.local
+```
 
 # Future Improvements
 
