@@ -20,7 +20,7 @@ A self-hosted Ubuntu Server setup built using a repurposed laptop for NAS storag
 | Component | Details |
 |---|---|
 | Device | Dell Inspiron 15-3567 |
-| CPU | Intel i3 |
+| CPU | Intel i3-6006U|
 | RAM | 12 GB |
 | Storage | 500 GB |
 | OS | Ubuntu Server 24.04.4 LTS |
