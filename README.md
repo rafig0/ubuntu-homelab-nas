@@ -62,6 +62,32 @@ Router ─── Ubuntu Homelab Server
 
 ---
 
+# Screenshots
+
+## Setup
+
+![setup](screenshots/hw-setup.jpg)
+
+## System Monitoring and SSH login
+
+![htop](screenshots/htop-ssh.jpg)
+
+## Samba NAS Access
+
+<img src="screenshots/samba-share.png" width="700">
+
+The Samba share is mounted on a Windows machine over the local network.
+
+## Details of Server and currently running services
+
+![SSH](screenshots/details-and-service-run.jpg)
+
+## Active Services
+
+![active](screenshots/active-services.jpg)
+
+---
+
 # Future Improvements
 
 - Docker containers
