@@ -1,16 +1,16 @@
 # Ubuntu Homelab NAS Server
 
-A self-hosted Ubuntu Server setup built using a repurposed laptop for NAS storage, media streaming, and remote administration.
+A self-hosted Ubuntu Server setup built using a repurposed old laptop to provide NAS storage, media streaming, and remote administration services. This project focuses on extending the life of older hardware by transforming it into a functional homelab server, reducing electronic waste while exploring Linux system administration, self-hosting, networking, and lightweight server infrastructure.
 
 ---
 
 # Features
 
-- Ubuntu Server 24.04 LTS
-- SSH remote administration
-- Samba NAS configuration
-- Jellyfin media server
-- Headless server workflow
+- Runs on Ubuntu Server 24.04 LTS, which supports a wide range of applications 
+- SSH remote administration for remote access to the server.
+- Samba NAS configuration which can be accessed by any device on the local network (e.g. via network drive for Windows)
+- Jellyfin media server to stream media content across all devices locally
+- Headless server workflow for easier integration and faster response time
 - Local hostname-based access
 
 ---
