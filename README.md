@@ -72,7 +72,7 @@ The laptop on the left is being used as a server and the laptop on the right is 
 ## System Monitoring and SSH login
 
 ![htop](screenshots/htop-ssh.jpg)
-Here we can see the login screen for the SSH login and on the right htop processes that are currently running on the server.
+Here we can see the login screen for the SSH login and on the right htop processes that are currently running on the server
 
 ## Samba NAS Access
 
