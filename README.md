@@ -121,5 +121,4 @@ ssh username@computer.local
 - VPN setup
 - Automated backups
 - Monitoring dashboard
-
 ---
